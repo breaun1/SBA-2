@@ -1,2 +1,40 @@
 /* font-family: 'Noto Sans Mandaic', sans-serif; */
 
+*,*::before,*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:sans-serif;
+}
+
+.nav{
+    position: fixed;
+    width: 100vw;
+    box-shadow: 0 0 10px lightgray;
+}
+
+.nav__list{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap:2rem;
+    margin:0 2rem;
+}
+
+.nav__listLogo{
+    list-style: none;
+    margin-right: auto;
+    cursor:pointer;
+}
+
+img{
+    width:4.5rem;
+    transition: fill 250ms ease-in;
+}
+
+img:hover,img:focus{
+    fill: aquamarine;
+}
