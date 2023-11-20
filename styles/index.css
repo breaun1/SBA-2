@@ -107,7 +107,7 @@ a{
 }
 
 a:visited{
-    color:red;
+    color:black;
 }
 
 /* Nav ends here */
@@ -151,5 +151,39 @@ h1:hover, p:hover{
 }
 
 button:hover{
-    background-color: green;
+    background-color: #cc5500;
  }
+
+ /* HERO ENDS HERE */
+.vac-table{
+width: 80%;
+border-collapse: collapse;
+margin: 0 auto;
+font: size 0.9em;
+min-width: 400px;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+
+}
+
+.vac-table thead tr{
+    background-color: red;
+    color:#fff;
+    text-align: left;
+}
+
+.vac-table th, .vac-table td{
+    padding: 12px 15px;
+}
+
+.vac-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.vac-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.vac-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
